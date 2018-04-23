@@ -11,11 +11,11 @@ Constructive criticism is welcome, even if it is harsh. I only care that it is u
 
 <br/>
 <br/>
-&#160&#160&#160&#160&#160&#160&#160<b>Progress</b>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Progress</b>
 <br/>
 
 
- &#160&#160<i>Chapter 2</i>
+ &nbsp&nbsp<i>Chapter 2</i>
 The solutions for most exercises are provided. As far as my tests have shown most solutions are true and correct.    One exception is the squeeze function from Exercise 2-4, which I have noted to fail using inputs involving hyphens.
 
 
