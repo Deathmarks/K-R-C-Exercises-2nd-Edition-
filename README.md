@@ -10,7 +10,7 @@ Constructive criticism is welcome, even if it is harsh. I only care that it is u
 
 
 
-         <h2><b>Progress</b></h2>
+         Progress
 ---------------------------
 
 <i>Chapter 2</i>
