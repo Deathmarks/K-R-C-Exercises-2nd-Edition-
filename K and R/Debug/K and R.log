@@ -1,0 +1,774 @@
+﻿Build started 4/4/2018 8:38:23 PM.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\Zach\AppData\Roaming
+asl.log = Destination=file
+AV_APPDATA = C:\Users\Zach\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = ZACH-PC
+ComSpec = C:\Windows\system32\cmd.exe
+DXSDK_DIR = C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\
+FP_NO_HOST_CHECK = NO
+GIT_SSH = C:\Program Files\PuTTY\plink.exe
+HOMEDRIVE = C:
+HOMEPATH = \Users\Zach
+LOCALAPPDATA = C:\Users\Zach\AppData\Local
+LOGONSERVER = \\ZACH-PC
+NUMBER_OF_PROCESSORS = 6
+OS = Windows_NT
+Path = C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Skype\Phone\;%SystemRoot%\system32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;G:\NonBackup\Utilities;D:\NonBackup\Utilities\MiKTeX\miktex\bin\x64\;C:\Python27
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
+PROCESSOR_LEVEL = 21
+PROCESSOR_REVISION = 0200
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SVN_SSH = C:\Program Files\PuTTY\plink.exe
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\Zach\AppData\Local\Temp
+TMP = C:\Users\Zach\AppData\Local\Temp
+USERDOMAIN = Zach-PC
+USERNAME = Zach
+USERPROFILE = C:\Users\Zach
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+VisualStudioDir = C:\Users\Zach\Documents\Visual Studio 2010
+VS100COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS = F:\Visual Studio 2013\Common7\Tools\
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+windir = C:\Windows
+XNAGSShared = C:\Program Files (x86)\Common Files\Microsoft Shared\XNA\
+XNAGSv4 = C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\
+
+20:38:23.137     1>Project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" on node 2 (build target(s)).
+20:38:23.137     1>Building with tools version "4.0".
+20:38:23.137     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Configuration=Debug (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                     Platform=Win32 (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\' != '' and !HasTrailingSlash('C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+20:38:23.145     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "K and R.vcxproj".: (TargetId:2)
+20:38:23.145     1>Target "_DetermineManagedStateFromCL: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "Build" depends on it):
+20:38:23.145     1>Done building target "_DetermineManagedStateFromCL" in project "K and R.vcxproj".: (TargetId:3)
+20:38:23.145     1>Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "Build" depends on it):
+20:38:23.145     1>Done building target "_PrepareForBuild" in project "K and R.vcxproj".: (TargetId:4)
+20:38:23.145     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:4)
+                     PATH=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\Windows\SysWow64;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Skype\Phone\;C:\Windows\system32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;G:\NonBackup\Utilities;D:\NonBackup\Utilities\MiKTeX\miktex\bin\x64\;C:\Python27; (TaskId:4)
+                   Done executing task "SetEnv". (TaskId:4)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:5)
+                     LIB=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:5)
+                   Done executing task "SetEnv". (TaskId:5)
+                   Task "SetEnv" (TaskId:6)
+                     LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:6)
+                   Done executing task "SetEnv". (TaskId:6)
+                   Task "SetEnv" (TaskId:7)
+                     INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:7)
+                   Done executing task "SetEnv". (TaskId:7)
+20:38:23.146     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "K and R.vcxproj".: (TargetId:5)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+20:38:23.146     1>Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ResolveReferences" depends on it):
+20:38:23.146     1>Done building target "BeforeResolveReferences" in project "K and R.vcxproj".: (TargetId:6)
+20:38:23.147     1>Target "AssignProjectConfiguration: (TargetId:7)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ResolveReferences" depends on it):
+                   Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignProjectConfiguration" (TaskId:8)
+                   Done executing task "AssignProjectConfiguration". (TaskId:8)
+20:38:23.148     1>Done building target "AssignProjectConfiguration" in project "K and R.vcxproj".: (TargetId:7)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+20:38:23.148     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:8)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ResolveProjectReferences" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+20:38:23.148     1>Done building target "_SplitProjectReferencesByFileExistence" in project "K and R.vcxproj".: (TargetId:8)
+                   Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+20:38:23.148     1>Target "ResolveProjectReferences: (TargetId:9)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+20:38:23.149     1>Done building target "ResolveProjectReferences" in project "K and R.vcxproj".: (TargetId:9)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+20:38:23.149     1>Target "GetFrameworkPaths: (TargetId:10)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+20:38:23.149     1>Done building target "GetFrameworkPaths" in project "K and R.vcxproj".: (TargetId:10)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+20:38:23.149     1>Target "GetReferenceAssemblyPaths: (TargetId:11)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+20:38:23.149     1>Done building target "GetReferenceAssemblyPaths" in project "K and R.vcxproj".: (TargetId:11)
+20:38:23.149     1>Target "PlatformPrepareForBuild: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+20:38:23.149     1>Done building target "PlatformPrepareForBuild" in project "K and R.vcxproj".: (TargetId:12)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+20:38:23.149     1>Target "PrepareForBuild: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MakeDir" (TaskId:9)
+                   Done executing task "MakeDir". (TaskId:9)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:10)
+                   Done executing task "MakeDir". (TaskId:10)
+20:38:23.150     1>Done building target "PrepareForBuild" in project "K and R.vcxproj".: (TargetId:13)
+20:38:23.151     1>Target "GetInstalledSDKLocations: (TargetId:14)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+20:38:23.151     1>Done building target "GetInstalledSDKLocations" in project "K and R.vcxproj".: (TargetId:14)
+20:38:23.151     1>Target "ResolveSDKReferences: (TargetId:15)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+20:38:23.151     1>Done building target "ResolveSDKReferences" in project "K and R.vcxproj".: (TargetId:15)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+20:38:23.151     1>Target "ExpandSDKReferences: (TargetId:16)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+20:38:23.151     1>Done building target "ExpandSDKReferences" in project "K and R.vcxproj".: (TargetId:16)
+20:38:23.151     1>Target "ResolveAssemblyReferences: (TargetId:17)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ResolveReferences" depends on it):
+                   Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ResolveAssemblyReference" (TaskId:11)
+                     TargetFrameworkMoniker: (TaskId:11)
+                         .NETFramework,Version=v4.0 (TaskId:11)
+                     TargetFrameworkMonikerDisplayName: (TaskId:11)
+                         .NET Framework 4 (TaskId:11)
+                     TargetedRuntimeVersion: (TaskId:11)
+                         v4.0.30319 (TaskId:11)
+                     Assemblies: (TaskId:11)
+                         System.Core (TaskId:11)
+                     AssemblyFiles: (TaskId:11)
+                     CandidateAssemblyFiles: (TaskId:11)
+                     TargetFrameworkDirectories: (TaskId:11)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:11)
+                     InstalledAssemblyTables: (TaskId:11)
+                     IgnoreInstalledAssemblyTable: (TaskId:11)
+                         False (TaskId:11)
+                     SearchPaths: (TaskId:11)
+                         {CandidateAssemblyFiles} (TaskId:11)
+                         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib (TaskId:11)
+                         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:11)
+                         {HintPathFromItem} (TaskId:11)
+                         {TargetFrameworkDirectory} (TaskId:11)
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx} (TaskId:11)
+                         {AssemblyFolders} (TaskId:11)
+                         {GAC} (TaskId:11)
+                         {RawFileName} (TaskId:11)
+                         C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\ (TaskId:11)
+                     AllowedAssemblyExtensions: (TaskId:11)
+                         .winmd (TaskId:11)
+                         .dll (TaskId:11)
+                         .exe (TaskId:11)
+                     AllowedRelatedFileExtensions: (TaskId:11)
+                         .pdb (TaskId:11)
+                         .xml (TaskId:11)
+                         .pri (TaskId:11)
+                     AppConfigFile: (TaskId:11)
+                          (TaskId:11)
+                     AutoUnify: (TaskId:11)
+                         False (TaskId:11)
+                     CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:11)
+                         True (TaskId:11)
+                     FindDependencies: (TaskId:11)
+                         True (TaskId:11)
+                     TargetProcessorArchitecture: (TaskId:11)
+                         x86 (TaskId:11)
+                     StateFile: (TaskId:11)
+                         Debug\K and R.vcxprojResolveAssemblyReference.cache (TaskId:11)
+                     InstalledAssemblySubsetTables: (TaskId:11)
+                     IgnoreInstalledAssemblySubsetTable: (TaskId:11)
+                         False (TaskId:11)
+                     TargetFrameworkSubsets: (TaskId:11)
+                     FullTargetFrameworkSubsetNames: (TaskId:11)
+                         Full (TaskId:11)
+                     ProfileName: (TaskId:11)
+                          (TaskId:11)
+                     FullFrameworkFolders: (TaskId:11)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:11)
+                     LatestTargetFrameworkDirectories: (TaskId:11)
+                     ProfileTablesLocation: (TaskId:11)
+                     Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:11)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll". (TaskId:11)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:11)
+                             For SearchPath "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:11)
+                             Considered "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd", but it didn't exist. (TaskId:11)
+                             Considered "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll", but it didn't exist. (TaskId:11)
+                             Considered "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe", but it didn't exist. (TaskId:11)
+                             For SearchPath "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:11)
+                             Considered "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd", but it didn't exist. (TaskId:11)
+                             Considered "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll", but it didn't exist. (TaskId:11)
+                             Considered "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe", but it didn't exist. (TaskId:11)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:11)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist. (TaskId:11)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:11)
+                         The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:11)
+                   Done executing task "ResolveAssemblyReference". (TaskId:11)
+20:38:23.153     1>Done building target "ResolveAssemblyReferences" in project "K and R.vcxproj".: (TargetId:17)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+20:38:23.153     1>Target "AfterResolveReferences: (TargetId:18)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ResolveReferences" depends on it):
+20:38:23.153     1>Done building target "AfterResolveReferences" in project "K and R.vcxproj".: (TargetId:18)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+20:38:23.153     1>Target "ResolveReferences: (TargetId:19)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "Build" depends on it):
+20:38:23.153     1>Done building target "ResolveReferences" in project "K and R.vcxproj".: (TargetId:19)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+20:38:23.153     1>Target "InitializeBuildStatus: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "Build" depends on it):
+                   Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ReadLinesFromFile" (TaskId:12)
+                   Done executing task "ReadLinesFromFile". (TaskId:12)
+                   Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "WriteLinesToFile" (TaskId:13)
+                   Done executing task "WriteLinesToFile". (TaskId:13)
+                   Using "Touch" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Touch" (TaskId:14)
+                     Creating "Debug\K and R.unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:14)
+                   Done executing task "Touch". (TaskId:14)
+20:38:23.162     1>Done building target "InitializeBuildStatus" in project "K and R.vcxproj".: (TargetId:20)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+20:38:23.162     1>Target "BuildGenerateSourcesTraverse: (TargetId:21)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+20:38:23.162     1>Done building target "BuildGenerateSourcesTraverse" in project "K and R.vcxproj".: (TargetId:21)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+20:38:23.163     1>Target "BeforeBuildGenerateSources: (TargetId:22)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildGenerateSources" depends on it):
+20:38:23.163     1>Done building target "BeforeBuildGenerateSources" in project "K and R.vcxproj".: (TargetId:22)
+20:38:23.163     1>Target "PreBuildEvent: (TargetId:23)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+20:38:23.163     1>Done building target "PreBuildEvent" in project "K and R.vcxproj".: (TargetId:23)
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+20:38:23.163     1>Target "_GenerateXMLData: (TargetId:24)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildGenerateSources" depends on it):
+20:38:23.163     1>Done building target "_GenerateXMLData" in project "K and R.vcxproj".: (TargetId:24)
+20:38:23.163     1>Target "_GenerateWebServiceProxy: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildGenerateSources" depends on it):
+20:38:23.163     1>Done building target "_GenerateWebServiceProxy" in project "K and R.vcxproj".: (TargetId:25)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+20:38:23.163     1>Target "_Xsd: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildGenerateSources" depends on it):
+20:38:23.163     1>Done building target "_Xsd" in project "K and R.vcxproj".: (TargetId:26)
+20:38:23.163     1>Target "MakeDirsForMidl: (TargetId:27)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:15)
+                   Done executing task "Makedir". (TaskId:15)
+20:38:23.163     1>Done building target "MakeDirsForMidl" in project "K and R.vcxproj".: (TargetId:27)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+20:38:23.163     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:28)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Midl" depends on it):
+20:38:23.163     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "K and R.vcxproj".: (TargetId:28)
+20:38:23.163     1>Target "AfterMidl: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Midl" depends on it):
+20:38:23.163     1>Done building target "AfterMidl" in project "K and R.vcxproj".: (TargetId:29)
+20:38:23.163     1>Target "_Midl: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildGenerateSources" depends on it):
+20:38:23.163     1>Done building target "_Midl" in project "K and R.vcxproj".: (TargetId:30)
+20:38:23.163     1>Target "AfterBuildGenerateSources: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildGenerateSources" depends on it):
+20:38:23.163     1>Done building target "AfterBuildGenerateSources" in project "K and R.vcxproj".: (TargetId:31)
+20:38:23.163     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:32)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildGenerateSources" depends on it):
+20:38:23.163     1>Done building target "AfterBuildGenerateSourcesEvent" in project "K and R.vcxproj".: (TargetId:32)
+20:38:23.163     1>Target "BuildGenerateSources: (TargetId:33)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "Build" depends on it):
+20:38:23.163     1>Done building target "BuildGenerateSources" in project "K and R.vcxproj".: (TargetId:33)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+20:38:23.163     1>Target "BuildCompileTraverse: (TargetId:34)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+20:38:23.163     1>Done building target "BuildCompileTraverse" in project "K and R.vcxproj".: (TargetId:34)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+20:38:23.163     1>Target "BeforeClCompile: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_ClCompile" depends on it):
+20:38:23.163     1>Done building target "BeforeClCompile" in project "K and R.vcxproj".: (TargetId:35)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+20:38:23.163     1>Target "ComputeCLInputPDBName: (TargetId:36)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_ClCompile" depends on it):
+20:38:23.163     1>Done building target "ComputeCLInputPDBName" in project "K and R.vcxproj".: (TargetId:36)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+20:38:23.163     1>Target "ComputeReferenceCLInput: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" (TaskId:16)
+                   Done executing task "WriteLinesToFile". (TaskId:16)
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and '' != 'false' and '' != '').
+20:38:23.165     1>Done building target "ComputeReferenceCLInput" in project "K and R.vcxproj".: (TargetId:37)
+20:38:23.165     1>Target "MakeDirsForCl: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:17)
+                   Done executing task "MakeDir". (TaskId:17)
+20:38:23.166     1>Done building target "MakeDirsForCl" in project "K and R.vcxproj".: (TargetId:38)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+20:38:23.167     1>Target "_SelectedFiles: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "SelectClCompile" depends on it):
+20:38:23.167     1>Done building target "_SelectedFiles" in project "K and R.vcxproj".: (TargetId:39)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+20:38:23.167     1>Target "SelectCustomBuild: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "SelectClCompile" depends on it):
+20:38:23.167     1>Done building target "SelectCustomBuild" in project "K and R.vcxproj".: (TargetId:40)
+20:38:23.167     1>Target "SelectClCompile: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ClCompile" depends on it):
+20:38:23.167     1>Done building target "SelectClCompile" in project "K and R.vcxproj".: (TargetId:41)
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Chapter 2.cpp;main.cpp' != '' and 'false' == 'True').
+20:38:23.167     1>Target "ClCompile: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_ClCompile" depends on it):
+                   Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('EditAndContinue' != '' and 'EditAndContinue' != 'OldStyle' and 'Debug\vc100.pdb' != '' and !Exists(Debug\vc100.pdb)).
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('NotUsing' == 'Create' and ''!='true').
+                   Using "CL" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CL" (TaskId:18)
+                     Read Tracking Logs: (TaskId:18)
+                     	Debug\cl.read.1.tlog (TaskId:18)
+                     Outputs for C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\CHAPTER 2.CPP|C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\MAIN.CPP: (TaskId:18)
+                     	C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\CHAPTER 2.OBJ (TaskId:18)
+                     	C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\MAIN.OBJ (TaskId:18)
+                     Chapter 2.cpp will be compiled as C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\Chapter 2.cpp was modified at 4/4/2018 8:38:22 PM. (TaskId:18)
+                     main.cpp will be compiled as C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\main.cpp was modified at 4/4/2018 8:38:22 PM. (TaskId:18)
+                     Environment Variables passed to tool: (TaskId:18)
+                       VS_UNICODE_OUTPUT=2056 (TaskId:18)
+                     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Chapter 2.cpp" main.cpp (TaskId:18)
+                     Tracking command: (TaskId:18)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\Debug" /r "C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\CHAPTER 2.CPP|C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\MAIN.CPP" /b MSBuildConsole_CancelEvent3f95d29d48b942339034868d60a5c0ec  /c "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Chapter 2.cpp" main.cpp (TaskId:18)
+                     main.cpp (TaskId:18)
+20:38:23.336     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.h(41): warning C4005: 'ASSESS_FUNCTION_RUNTIME_CLOCK' : macro redefinition
+                             c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.h(40) : see previous definition of 'ASSESS_FUNCTION_RUNTIME_CLOCK' (TaskId:18)
+20:38:23.336     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.h(55): warning C4114: same type qualifier used more than once
+20:38:23.336     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.h(60): warning C4114: same type qualifier used more than once
+20:38:23.337     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.h(71): warning C4114: same type qualifier used more than once
+                     Chapter 2.cpp (TaskId:18)
+20:38:23.411     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.h(41): warning C4005: 'ASSESS_FUNCTION_RUNTIME_CLOCK' : macro redefinition
+                             c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.h(40) : see previous definition of 'ASSESS_FUNCTION_RUNTIME_CLOCK' (TaskId:18)
+20:38:23.411     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.h(55): warning C4114: same type qualifier used more than once
+20:38:23.411     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.h(60): warning C4114: same type qualifier used more than once
+20:38:23.411     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.h(71): warning C4114: same type qualifier used more than once
+20:38:23.413     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(124): warning C4002: too many actual parameters for macro 'ASSESS_FUNCTION_RUNTIME_CLOCK'
+20:38:23.413     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(168): warning C4002: too many actual parameters for macro 'ASSESS_FUNCTION_RUNTIME_CLOCK'
+20:38:23.414     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(177): warning C4002: too many actual parameters for macro 'ASSESS_FUNCTION_RUNTIME_CLOCK'
+20:38:23.414     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(185): warning C4002: too many actual parameters for macro 'ASSESS_FUNCTION_RUNTIME_CLOCK'
+20:38:23.414     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(194): warning C4002: too many actual parameters for macro 'ASSESS_FUNCTION_RUNTIME_CLOCK'
+20:38:23.415     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(197): warning C4002: too many actual parameters for macro 'ASSESS_FUNCTION_RUNTIME_CLOCK'
+20:38:23.415     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(207): warning C4002: too many actual parameters for macro 'ASSESS_FUNCTION_RUNTIME_CLOCK'
+20:38:23.415     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(212): warning C4114: same type qualifier used more than once
+20:38:23.416     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(267): warning C4114: same type qualifier used more than once
+20:38:23.418     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(489): warning C4101: 'sourceBitFieldValue' : unreferenced local variable
+20:38:23.418     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(555): warning C4114: same type qualifier used more than once
+                     Generating Code... (TaskId:18)
+20:38:23.428     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(126): warning C4700: uninitialized local variable 'stringPosition' used
+20:38:23.429     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(169): warning C4700: uninitialized local variable 'result' used
+20:38:23.429     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(178): warning C4700: uninitialized local variable 'result' used
+20:38:23.429     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(186): warning C4700: uninitialized local variable 'result' used
+20:38:23.429     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(208): warning C4700: uninitialized local variable 'character' used
+20:38:23.430     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(348): warning C4715: 'hexCharToIntVal' : not all control paths return a value
+20:38:23.433     1>c:\users\zach\documents\visual studio 2010\projects\k and r\k and r\chapter 2.cpp(628): warning C4715: 'chooseBase' : not all control paths return a value
+                   Done executing task "CL". (TaskId:18)
+20:38:23.466     1>Done building target "ClCompile" in project "K and R.vcxproj".: (TargetId:42)
+                   Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Chapter 2.cpp;main.cpp' != '' and 'false' == 'True').
+20:38:23.466     1>Target "AfterClCompile: (TargetId:43)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_ClCompile" depends on it):
+20:38:23.466     1>Done building target "AfterClCompile" in project "K and R.vcxproj".: (TargetId:43)
+20:38:23.466     1>Target "_ClCompile: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildCompile" depends on it):
+20:38:23.466     1>Done building target "_ClCompile" in project "K and R.vcxproj".: (TargetId:44)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+20:38:23.466     1>Target "BeforeResourceCompile: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_ResourceCompile" depends on it):
+20:38:23.466     1>Done building target "BeforeResourceCompile" in project "K and R.vcxproj".: (TargetId:45)
+20:38:23.466     1>Target "MakeDirsForResourceCompile: (TargetId:46)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:19)
+                   Done executing task "MakeDir". (TaskId:19)
+20:38:23.466     1>Done building target "MakeDirsForResourceCompile" in project "K and R.vcxproj".: (TargetId:46)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+20:38:23.466     1>Target "AfterResourceCompile: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_ResourceCompile" depends on it):
+20:38:23.466     1>Done building target "AfterResourceCompile" in project "K and R.vcxproj".: (TargetId:47)
+20:38:23.466     1>Target "_ResourceCompile: (TargetId:48)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildCompile" depends on it):
+20:38:23.466     1>Done building target "_ResourceCompile" in project "K and R.vcxproj".: (TargetId:48)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+                   Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+20:38:23.466     1>Target "AfterBuildCompileEvent: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildCompile" depends on it):
+20:38:23.466     1>Done building target "AfterBuildCompileEvent" in project "K and R.vcxproj".: (TargetId:49)
+20:38:23.466     1>Target "BuildCompile: (TargetId:50)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "Build" depends on it):
+20:38:23.466     1>Done building target "BuildCompile" in project "K and R.vcxproj".: (TargetId:50)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+20:38:23.466     1>Target "BuildLinkTraverse: (TargetId:51)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+20:38:23.466     1>Done building target "BuildLinkTraverse" in project "K and R.vcxproj".: (TargetId:51)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+20:38:23.466     1>Target "BeforeLink: (TargetId:52)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+20:38:23.466     1>Done building target "BeforeLink" in project "K and R.vcxproj".: (TargetId:52)
+20:38:23.466     1>Target "ComputeRCOutputs: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+20:38:23.466     1>Done building target "ComputeRCOutputs" in project "K and R.vcxproj".: (TargetId:53)
+20:38:23.466     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+20:38:23.466     1>Done building target "ComputeRCGeneratedLinkInputs" in project "K and R.vcxproj".: (TargetId:54)
+20:38:23.466     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+20:38:23.467     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "K and R.vcxproj".: (TargetId:55)
+20:38:23.467     1>Target "ComputeCustomBuildOutput: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+                   Task "MakeDir" (TaskId:20)
+                   Done executing task "MakeDir". (TaskId:20)
+20:38:23.467     1>Done building target "ComputeCustomBuildOutput" in project "K and R.vcxproj".: (TargetId:56)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+20:38:23.467     1>Target "ComputeCLOutputs: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+20:38:23.467     1>Done building target "ComputeCLOutputs" in project "K and R.vcxproj".: (TargetId:57)
+20:38:23.467     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+20:38:23.467     1>Done building target "ComputeCLGeneratedLinkInputs" in project "K and R.vcxproj".: (TargetId:58)
+20:38:23.467     1>Target "ComputeLinkInputsFromProject: (TargetId:59)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+20:38:23.467     1>Done building target "ComputeLinkInputsFromProject" in project "K and R.vcxproj".: (TargetId:59)
+                   Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+20:38:23.467     1>Target "ComputeManifestInputsTargets: (TargetId:60)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+20:38:23.467     1>Done building target "ComputeManifestInputsTargets" in project "K and R.vcxproj".: (TargetId:60)
+                   Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK') was evaluated as ('MT' == 'LINK').
+                   Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+20:38:23.467     1>Target "AssignTargetPaths: (TargetId:61)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignTargetPath" (TaskId:21)
+                   Done executing task "AssignTargetPath". (TaskId:21)
+                   Task "AssignTargetPath" (TaskId:22)
+                   Done executing task "AssignTargetPath". (TaskId:22)
+                   Task "AssignTargetPath" (TaskId:23)
+                   Done executing task "AssignTargetPath". (TaskId:23)
+                   Task "AssignTargetPath" (TaskId:24)
+                   Done executing task "AssignTargetPath". (TaskId:24)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+20:38:23.467     1>Done building target "AssignTargetPaths" in project "K and R.vcxproj".: (TargetId:61)
+                   Target "AssignTargetPaths" skipped. Previously built successfully.
+20:38:23.468     1>Target "SplitResourcesByCulture: (TargetId:62)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+                   Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignCulture" (TaskId:25)
+                   Done executing task "AssignCulture". (TaskId:25)
+20:38:23.468     1>Done building target "SplitResourcesByCulture" in project "K and R.vcxproj".: (TargetId:62)
+                   Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+20:38:23.468     1>Target "CreateCustomManifestResourceNames: (TargetId:63)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "PrepareResourceNames" depends on it):
+20:38:23.468     1>Done building target "CreateCustomManifestResourceNames" in project "K and R.vcxproj".: (TargetId:63)
+20:38:23.468     1>Target "PrepareResourceNames: (TargetId:64)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+20:38:23.468     1>Done building target "PrepareResourceNames" in project "K and R.vcxproj".: (TargetId:64)
+20:38:23.468     1>Target "MakeDirsForLink: (TargetId:65)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+                   Task "MakeDir" (TaskId:26)
+                   Done executing task "MakeDir". (TaskId:26)
+20:38:23.469     1>Done building target "MakeDirsForLink" in project "K and R.vcxproj".: (TargetId:65)
+20:38:23.469     1>Target "DoLinkOutputFilesMatch: (TargetId:66)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\K and R.exe' != 'C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\K and R.exe').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('.exe' != '.exe').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('K and R' != 'K and R').
+20:38:23.469     1>Done building target "DoLinkOutputFilesMatch" in project "K and R.vcxproj".: (TargetId:66)
+20:38:23.469     1>Target "PreLinkEvent: (TargetId:67)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+20:38:23.469     1>Done building target "PreLinkEvent" in project "K and R.vcxproj".: (TargetId:67)
+20:38:23.469     1>Target "Link: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+                   Using "Link" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Link" (TaskId:27)
+                     Write Tracking Logs: (TaskId:27)
+                     	Debug\link.write.1.tlog (TaskId:27)
+                     Read Tracking Logs: (TaskId:27)
+                     	Debug\link.read.1.tlog (TaskId:27)
+                     Outputs for C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\CHAPTER 2.OBJ|C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\MAIN.OBJ: (TaskId:27)
+                     	C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\DEBUG\K AND R.ILK (TaskId:27)
+                     	C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\DEBUG\K AND R.EXE (TaskId:27)
+                     	C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\K AND R.EXE.INTERMEDIATE.MANIFEST (TaskId:27)
+                     	C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\DEBUG\K AND R.PDB (TaskId:27)
+                     Inputs for C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\CHAPTER 2.OBJ|C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\MAIN.OBJ: (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\KERNEL32.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\USER32.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\GDI32.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\WINSPOOL.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\COMDLG32.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\ADVAPI32.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\SHELL32.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\OLE32.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\OLEAUT32.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\UUID.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\ODBC32.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\ODBCCP32.LIB (TaskId:27)
+                     	C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\CHAPTER 2.OBJ (TaskId:27)
+                     	C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\MAIN.OBJ (TaskId:27)
+                     	C:\WINDOWS\SYSTEM32\TZRES.DLL (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\BIN\1033\LINKUI.DLL (TaskId:27)
+                     	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\LIB\MSVCPRTD.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\LIB\MSVCRTD.LIB (TaskId:27)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\LIB\OLDNAMES.LIB (TaskId:27)
+                     Source compilation required: input C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\MAIN.OBJ is newer than output C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\K AND R.EXE.INTERMEDIATE.MANIFEST. (TaskId:27)
+                     Environment Variables passed to tool: (TaskId:27)
+                       VS_UNICODE_OUTPUT=2076 (TaskId:27)
+                     C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\K and R.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\K and R.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\K and R.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\K and R.lib" /MACHINE:X86 "Debug\Chapter 2.obj"
+                     Debug\main.obj (TaskId:27)
+                     Tracking command: (TaskId:27)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /a /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\Debug" /r "C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\CHAPTER 2.OBJ|C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\MAIN.OBJ" /b MSBuildConsole_CancelEventff61dabf54df4199bc5f621b5ca1818e  /c "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\K and R.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\K and R.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\K and R.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\K and R.lib" /MACHINE:X86 "Debug\Chapter 2.obj"
+                     Debug\main.obj (TaskId:27)
+                     LINK : C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\K and R.exe not found or not built by the last incremental link; performing full link (TaskId:27)
+                   Done executing task "Link". (TaskId:27)
+                   Task "Message" (TaskId:28)
+                     K and R.vcxproj -> C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\K and R.exe (TaskId:28)
+                   Done executing task "Message". (TaskId:28)
+20:38:23.640     1>Done building target "Link" in project "K and R.vcxproj".: (TargetId:68)
+20:38:23.640     1>Target "_DetermineManagedStateForLink: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+20:38:23.640     1>Done building target "_DetermineManagedStateForLink" in project "K and R.vcxproj".: (TargetId:69)
+                   Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
+                   Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') was evaluated as ('false'!='' and 'false'!='false').
+                   Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
+20:38:23.640     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+                   Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkImportLibrary)' != '') was evaluated as ('' != '').
+20:38:23.640     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "K and R.vcxproj".: (TargetId:70)
+20:38:23.640     1>Target "AfterLink: (TargetId:71)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Link" depends on it):
+20:38:23.640     1>Done building target "AfterLink" in project "K and R.vcxproj".: (TargetId:71)
+20:38:23.640     1>Target "_Link: (TargetId:72)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildLink" depends on it):
+20:38:23.640     1>Done building target "_Link" in project "K and R.vcxproj".: (TargetId:72)
+20:38:23.640     1>Target "_ALink: (TargetId:73)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildLink" depends on it):
+20:38:23.640     1>Done building target "_ALink" in project "K and R.vcxproj".: (TargetId:73)
+                   Target "ComputeManifestInputsTargets" skipped. Previously built successfully.
+20:38:23.640     1>Target "MakeDirsForManifest: (TargetId:74)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "Manifest" depends on it):
+                   Task "MakeDir" (TaskId:29)
+                   Done executing task "MakeDir". (TaskId:29)
+20:38:23.641     1>Done building target "MakeDirsForManifest" in project "K and R.vcxproj".: (TargetId:74)
+20:38:23.641     1>Target "Manifest: (TargetId:75)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_Manifest" depends on it):
+                   Task "Delete" skipped, due to false condition; (('$(BuildType)' != 'Build' or '$(ForceRebuild)' == 'true') and '$(EmbedManifestby)'=='LINK') was evaluated as (('Build' != 'Build' or '' == 'true') and 'MT'=='LINK').
+                   Using "Mt" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Mt" (TaskId:30)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\K and R.exe;#1" /manifest "Debug\K and R.exe.intermediate.manifest" (TaskId:30)
+                     Tracking command: (TaskId:30)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\Debug" /r "C:\USERS\ZACH\DOCUMENTS\VISUAL STUDIO 2010\PROJECTS\K AND R\K AND R\DEBUG\K AND R.EXE.INTERMEDIATE.MANIFEST" /b MSBuildConsole_CancelEvent9b5cbb012a5c4539a94b63f0a98fb6b1  /c "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe"  /nologo /verbose /outputresource:"C:\Users\Zach\documents\visual studio 2010\Projects\K and R\Debug\K and R.exe;#1" /manifest "Debug\K and R.exe.intermediate.manifest" (TaskId:30)
+                   Done executing task "Mt". (TaskId:30)
+                   Task "RC" skipped, due to false condition; ('$(EmbedManifestby)'=='LINK') was evaluated as ('MT'=='LINK').
+20:38:23.778     1>Done building target "Manifest" in project "K and R.vcxproj".: (TargetId:75)
+                   Target "ComputeManifestGeneratedLinkerInputs" skipped. Previously built successfully.
+20:38:23.778     1>Target "_Manifest: (TargetId:76)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildLink" depends on it):
+20:38:23.778     1>Done building target "_Manifest" in project "K and R.vcxproj".: (TargetId:76)
+20:38:23.778     1>Target "RegisterOutput: (TargetId:77)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildLink" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+20:38:23.778     1>Done building target "RegisterOutput" in project "K and R.vcxproj".: (TargetId:77)
+20:38:23.778     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:78)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_XdcMake" depends on it):
+20:38:23.778     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "K and R.vcxproj".: (TargetId:78)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+20:38:23.778     1>Target "ResolvedXDCMake: (TargetId:79)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+20:38:23.778     1>Done building target "ResolvedXDCMake" in project "K and R.vcxproj".: (TargetId:79)
+20:38:23.778     1>Target "MakeDirsForXdcMake: (TargetId:80)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:31)
+                   Done executing task "MakeDir". (TaskId:31)
+20:38:23.779     1>Done building target "MakeDirsForXdcMake" in project "K and R.vcxproj".: (TargetId:80)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+20:38:23.779     1>Target "_XdcMake: (TargetId:81)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildLink" depends on it):
+20:38:23.779     1>Done building target "_XdcMake" in project "K and R.vcxproj".: (TargetId:81)
+20:38:23.779     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:82)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_BscMake" depends on it):
+20:38:23.779     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "K and R.vcxproj".: (TargetId:82)
+20:38:23.779     1>Target "MakeDirsForBscMake: (TargetId:83)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:32)
+                   Done executing task "MakeDir". (TaskId:32)
+20:38:23.779     1>Done building target "MakeDirsForBscMake" in project "K and R.vcxproj".: (TargetId:83)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+20:38:23.779     1>Target "_BscMake: (TargetId:84)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildLink" depends on it):
+20:38:23.779     1>Done building target "_BscMake" in project "K and R.vcxproj".: (TargetId:84)
+                   Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+20:38:23.779     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:85)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+20:38:23.779     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "K and R.vcxproj".: (TargetId:85)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+20:38:23.779     1>Target "CreateSatelliteAssemblies: (TargetId:86)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildLink" depends on it):
+20:38:23.779     1>Done building target "CreateSatelliteAssemblies" in project "K and R.vcxproj".: (TargetId:86)
+20:38:23.779     1>Target "_Appverifier: (TargetId:87)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildLink" depends on it):
+20:38:23.779     1>Done building target "_Appverifier" in project "K and R.vcxproj".: (TargetId:87)
+20:38:23.779     1>Target "_Deploy: (TargetId:88)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildLink" depends on it):
+20:38:23.779     1>Done building target "_Deploy" in project "K and R.vcxproj".: (TargetId:88)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+                   Target "AssignTargetPaths" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+20:38:23.779     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:89)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:33)
+                   Done executing task "AssignTargetPath". (TaskId:33)
+20:38:23.779     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "K and R.vcxproj".: (TargetId:89)
+20:38:23.779     1>Target "GetCopyToOutputDirectoryItems: (TargetId:90)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+                   Task "AssignTargetPath" (TaskId:34)
+                   Done executing task "AssignTargetPath". (TaskId:34)
+20:38:23.779     1>Done building target "GetCopyToOutputDirectoryItems" in project "K and R.vcxproj".: (TargetId:90)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+20:38:23.779     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:91)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+20:38:23.779     1>Done building target "_CopySourceItemsToOutputDirectory" in project "K and R.vcxproj".: (TargetId:91)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+20:38:23.779     1>Target "_CheckForCompileOutputs: (TargetId:92)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+20:38:23.779     1>Done building target "_CheckForCompileOutputs" in project "K and R.vcxproj".: (TargetId:92)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+20:38:23.780     1>Target "CopyFilesToOutputDirectory: (TargetId:93)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildLink" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+                   Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+20:38:23.780     1>Done building target "CopyFilesToOutputDirectory" in project "K and R.vcxproj".: (TargetId:93)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+20:38:23.780     1>Target "PostBuildEvent: (TargetId:94)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "BuildLink" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+20:38:23.780     1>Done building target "PostBuildEvent" in project "K and R.vcxproj".: (TargetId:94)
+20:38:23.780     1>Target "BuildLink: (TargetId:95)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "Build" depends on it):
+20:38:23.780     1>Done building target "BuildLink" in project "K and R.vcxproj".: (TargetId:95)
+20:38:23.780     1>Target "AfterBuild: (TargetId:96)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "Build" depends on it):
+20:38:23.780     1>Done building target "AfterBuild" in project "K and R.vcxproj".: (TargetId:96)
+20:38:23.780     1>Target "FinalizeBuildStatus: (TargetId:97)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (target "Build" depends on it):
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:35)
+                     Deleting file "Debug\K and R.unsuccessfulbuild". (TaskId:35)
+                   Done executing task "Delete". (TaskId:35)
+                   Task "Touch" (TaskId:36)
+                     Touching "Debug\K and R.lastbuildstate". (TaskId:36)
+                   Done executing task "Touch". (TaskId:36)
+20:38:23.781     1>Done building target "FinalizeBuildStatus" in project "K and R.vcxproj".: (TargetId:97)
+20:38:23.781     1>Target "Build: (TargetId:98)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (entry point):
+20:38:23.781     1>Done building target "Build" in project "K and R.vcxproj".: (TargetId:98)
+20:38:23.781     1>Done Building Project "C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj" (build target(s)).
+
+Project Performance Summary:
+      644 ms  C:\Users\Zach\documents\visual studio 2010\Projects\K and R\K and R\K and R.vcxproj   1 calls
+                644 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  Build                                      1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  _DetermineManagedStateForLink              1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  DoLinkOutputFilesMatch                     1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  SplitResourcesByCulture                    1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        1 ms  ResolveProjectReferences                   1 calls
+        1 ms  MakeDirsForCl                              1 calls
+        1 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        1 ms  MakeDirsForManifest                        1 calls
+        1 ms  MakeDirsForLink                            1 calls
+        1 ms  MakeDirsForXdcMake                         1 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        1 ms  PrepareForBuild                            1 calls
+        1 ms  FinalizeBuildStatus                        1 calls
+        2 ms  ResolveAssemblyReferences                  1 calls
+        2 ms  ComputeReferenceCLInput                    1 calls
+        8 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        9 ms  InitializeBuildStatus                      1 calls
+      137 ms  Manifest                                   1 calls
+      171 ms  Link                                       1 calls
+      299 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  Delete                                     1 calls
+        0 ms  SetEnv                                     4 calls
+        0 ms  AssignCulture                              1 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  AssignTargetPath                           6 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        2 ms  ResolveAssemblyReference                   1 calls
+        3 ms  MakeDir                                   10 calls
+        4 ms  Touch                                      2 calls
+        6 ms  Message                                    3 calls
+        7 ms  WriteLinesToFile                           2 calls
+      137 ms  Mt                                         1 calls
+      170 ms  Link                                       1 calls
+      299 ms  CL                                         1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:00.65
