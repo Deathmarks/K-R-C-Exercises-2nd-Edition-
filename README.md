@@ -10,11 +10,11 @@ Constructive criticism is welcome, even if it is harsh. I only care that it is u
 
 
 
-         Progress
----------------------------
+Progress
 
-<i>Chapter 2</i>
-The solutions for most exercises are provided. As far as my tests have shown most solutions are true and correct. One exception is the squeeze function from Exercise 2-4, which I have noted to fail using inputs involving hyphens.
+
+   <i>Chapter 2</i>
+The solutions for most exercises are provided. As far as my tests have shown most solutions are true and correct.    One exception is the squeeze function from Exercise 2-4, which I have noted to fail using inputs involving hyphens.
 
 
 
